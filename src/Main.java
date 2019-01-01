@@ -9,13 +9,12 @@ public class Main {
         List<Long> cycle = new ArrayList<>();
         Collections.addAll(cycle, 4L, 16L, 37L, 58L, 89L, 145L, 42L, 20L);
 
-        for (long start=1; start<=20; start++) {
+        for (long start=1; start<=2019; start++) {
             long number = start;
             long sum = 0;
             int digit = 0;
 
             do {
-                System.out.print(number + " ");
                 sum = 0;
                 while (number > 0) {
                     digit = (int) (number % 10);
@@ -26,9 +25,8 @@ public class Main {
             } while(number!=1 && !cycle.contains(number));
 
             if (number==1L){
-                System.out.print(" happy number");
+                System.out.println(start);
             }
-            System.out.println("");
         }
     }
 }
