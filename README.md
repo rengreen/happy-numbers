@@ -4,6 +4,7 @@ Those numbers for which this process ends in 1 are happy numbers.
 https://en.wikipedia.org/wiki/Happy_number
 
 2019 is a Happy number
+
 2<sup>2</sup>+0<sup>2</sup>+1<sup>2</sup>+9<sup>2</sup>=86 
 
 8<sup>2</sup>+6<sup>2</sup>=100 
